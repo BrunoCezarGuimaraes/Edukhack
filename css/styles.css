@@ -1,0 +1,239 @@
+/*Padrão*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, helvetica, sans-serif;
+	border:none;
+
+}
+
+body{
+	background-color: #E5E5E5;
+}
+
+
+/*box dos textos*/
+.box a{
+   text-decoration: none;
+
+}
+
+p{  
+	margin:14px;
+}
+
+/*Corpo do site*/
+#content{
+   	min-width: 1200px;
+   	width: auto;
+   	min-height: 800px;
+	height: auto;
+	margin: 0 auto;
+	background-color: white;
+	color: #000000;
+}
+
+
+/*Cabeçalho do site*/
+#top{
+	width: 100%;
+	min-width: 1200px;
+	height: 250px;
+	background-color: #F8F8F8;
+	z-index: 100;
+	position: relative;
+}
+
+#top header{
+	width: 100%;
+	position: absolute;
+	margin-top:100px;
+}
+
+/*Figura da logo no cabeçalho*/
+#top figure{
+	margin: 1px 40.5% auto;
+
+}
+
+#top figure img {
+	width: 250px;
+	height: auto;
+	float: left;
+}
+
+/*Texto do cabeçalho*/
+h1{ 
+	background-color: #F5F5F5;
+	text-align: center;
+	margin: 10px;
+}
+
+/*Titulo de texto*/
+h3 {
+	align-content: center;
+	margin-top: 10px;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 30px;
+	font-variant: rgba(92, 88, 88, 0);
+}
+
+/*Opções de historia*/
+#bottons{
+	width: 100%;
+	min-height: 50px;
+	background-color: #F5F5F5;
+	position: absolute;
+	bottom: 0;
+}
+
+#bottons a{
+    float: left;
+	text-decoration: none;
+	color:#000000;
+	padding: 21px 25px;
+	background-color: #F5F5F5;
+}
+#bottons a:hover{
+	background-color: #FD875E;
+	color: white;
+
+}
+
+/*Perfil do usuário*/
+#mid{
+	min-height: 400px;
+	position: relative;
+}
+
+/*foto de perfil do usuário*/
+#mid figure{
+	text-align: center;
+
+}
+
+#mid figure img {
+	width: 200px;
+	height: auto;
+	border-radius: 100px;
+	float: center;
+	margin-top: 20px;
+}
+
+/*Nome do usário*/
+#mid h3{
+	text-align: center;
+
+}
+
+#mid p{
+	margin-top: 10px;
+	text-align: justify;
+	font-family: Poppins;
+	font-size: 20px;
+}
+
+/*Formúlario de login*/
+#form{
+	background-color: #F8F8F8;
+	min-width: 500px;
+	min-height: 300px;
+	float: left;
+	margin:20px 30% auto;
+	border-radius: 20px;
+}
+
+/*Botão de cadastro*/
+#form a{
+	width: 100%;
+	float: left;
+	text-decoration: none;
+}
+
+.btLogin{
+	width: 100%;
+	height: 40px;
+	background-color: #CF166F;
+	color: white;	
+	padding: 5px 80px;
+	border-radius: 20px;
+}
+
+.ent{
+	width: 420px;
+	height: 45px;
+	margin: 10px;
+	padding: 3px;
+	float: left;
+	border: 1px solid grey;
+}
+
+label{
+	float: left;
+	margin:5%;
+}
+.bt{
+	margin: 15px 105px;
+	text-align: center;
+
+}
+
+/*Botão do home/todos os cursos*/
+.aluno{
+	padding: 11px 21px;
+    border:1px solid; 
+    background:#CF166F; 
+    color:white;
+    border-radius:6px; 
+    font-size: 20px;
+    text-decoration:none;
+    float:right;
+    margin-top: 10%;
+    margin-right: 35%;*/
+
+
+}
+.professor{
+	padding: 11px 21px; 
+    border:1px solid;  
+    background:#7BDC40; 
+    color:white;
+    border-radius:6px; 
+    font-size: 20px;
+    text-decoration:none;
+    float: left;
+    margin-top: 10%;
+    margin-left: 31.5%;*/
+
+
+}
+
+
+/*Imagem do conteudo empreendorimo*/
+.curriculo{
+	width: 600px;
+	height: auto;
+
+}
+
+/*Roda pé*/
+#low{
+	width: 100%;
+	min-height: 200px;
+	float: left;
+	background-color: #E5E5E5;
+	color: black;
+	position: absolute;
+}
+
+#rodape{
+	margin: 20px;
+	text-align: center;
+}
+
+#rodapeInfo p{
+	margin: 22px;
+	margin-left: 90px;
+}
