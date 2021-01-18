@@ -1,4 +1,4 @@
-# edukhack
+# EdukHack
 
 2º Hackathon CCR 2021
 
@@ -10,3 +10,4 @@ fazer aulas seja ela da grade curricular do ensino público, aulas profissionali
 recompensa através de cupons, empresas alvo são aquelas de vendem serviços e produtos essenciais. Como funciona: A moeda que criamos se chama EH que é a abreviação do nome do 
 nosso projeto EdukHack essa moeda será usada como recompensa para alunos que concluirem determinados números de aulas e para professores, com um peso maior devido ao trabalho ao 
 gravar uma aula também será recompensado com a moeda do site por aulas enviadas.
+
